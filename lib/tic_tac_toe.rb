@@ -16,3 +16,8 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+
+def input_to_index(value)
+  index = value.to_i - 1
+  return index
+end
